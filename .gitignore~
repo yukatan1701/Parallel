@@ -1,4 +1,2 @@
-*
-!Makefile
-!*-merge.c
-!*-gauss.c
+fork-parallel.c
+pthread-parallel.c
