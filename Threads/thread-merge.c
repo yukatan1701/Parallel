@@ -125,9 +125,9 @@ int main(int argc, char *argv[])
 	}
 	unsigned long n = atol(argv[1]);
 	int *array = generateArray(n);
-	//print(array, n);
+	print(array, n);
 	sort(array, n);
-	//print(array, n);
+	print(array, n);
 	puts("Done.");
 	return 0;
 }
