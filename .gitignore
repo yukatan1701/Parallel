@@ -1,3 +1,4 @@
-fork-parallel.c
-pthread-parallel.c
-*~
+*
+!Forks/*.c
+!*Makefile
+!Threads/*.c

@@ -124,9 +124,9 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 	generateArray(array, n);
-	//print(array, n);
+	print(array, n);
 	sort(array, n);
-	//print(array, n);
+	print(array, n);
 	shmdt(array);
 	shmctl(shm_id, IPC_RMID, 0);
 	puts("Done.");
