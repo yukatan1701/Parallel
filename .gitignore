@@ -1,5 +1,5 @@
 *
-!Forks/*.c
+!Forks/*.cpp
 !*Makefile
-!Threads/*.c
+!Threads/*.cpp
 !*md
