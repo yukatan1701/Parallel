@@ -1,4 +1,5 @@
-*
-!*cpp
-!*Makefile
-!*md
+Forks/fork-merge
+Forks/fork-gauss
+Threads/thread-gauss
+Threads/thread-merge
+*.c
