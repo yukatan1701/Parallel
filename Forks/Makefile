@@ -1,2 +1,2 @@
-%: %.c
-	gcc $@.c -o $@ -Wall
+%: %.cpp
+	g++ $@.cpp -o $@ -Wall -std=c++11

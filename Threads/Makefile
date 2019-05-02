@@ -1,2 +1,2 @@
-%: %.c
-	gcc $@.c -o $@ -Wall -pthread
+%: %.cpp
+	g++ $@.cpp -o $@ -Wall -pthread
